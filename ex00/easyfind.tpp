@@ -6,7 +6,7 @@
 /*   By: joaocard <joaocard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/30 10:52:56 by joaocard          #+#    #+#             */
-/*   Updated: 2024/07/30 11:11:01 by joaocard         ###   ########.fr       */
+/*   Updated: 2024/07/30 16:15:24 by joaocard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 #define EASYFIND_TPP
 
 #include <algorithm>
+#include "easyfind.hpp"
 
 template<typename T>
 typename T::iterator easyfind(T& container, int value) {
